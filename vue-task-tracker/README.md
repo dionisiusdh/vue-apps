@@ -1,19 +1,35 @@
-# vue-task-tracker
+# Task Tracker
 
-## Project setup
-```
-npm install
-```
+> Simple Task Tracker
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![](./demo.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Features
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Create and Delete Task
+- Turn On/Off Reminder by Double-Clicking on Specific Task
+- Simple Routing (with Vue Router)
+- Dummy Backend (with JSON Server)
+
+## Technologies
+
+- VueJS
+- JSON Server
+
+## Project Setup
+
+### Run App
+
+`npm run serve`
+
+### Run Dummy Backend
+
+`npm run dummy-backend`
+
+### Build App
+
+`npm run build`
+
+### Test App
+
+`serve dist`
