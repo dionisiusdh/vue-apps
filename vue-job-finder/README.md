@@ -1,24 +1,19 @@
-# vue-job-finder
+# Job Finder
 
-## Project setup
-```
-npm install
-```
+> Simple Job Wall
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![](./demo.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Features
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Static jobs data
+- Custom job order
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## To Do
+
+- GitHub jobs API
+
+## Technologies
+
+- Vue with Composition API
+- Typescript
