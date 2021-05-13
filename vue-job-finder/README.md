@@ -2,7 +2,7 @@
 
 > Simple Job Wall
 
-![](./demo.png)
+![](./demo.PNG)
 
 ## Features
 
