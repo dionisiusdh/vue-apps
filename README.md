@@ -1,5 +1,5 @@
 # Vue Apps
-> Simple web apps created with Vue.js
+> Web apps created with Vue.js
 
 ## List of App
 - [Task Tracker](https://github.com/dionisiusdh/learn-vue/tree/main/vue-task-tracker)
