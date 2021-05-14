@@ -1,24 +1,13 @@
-# vue-task-manager
+# Vue: To Do Manager
 
-## Project setup
-```
-npm install
-```
+> Manage Your To Dos
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Features
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Global state management with VueX
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Technologies
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue 2
+- VueX
+- JSON Placeholder API
