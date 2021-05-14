@@ -14,7 +14,6 @@ const actions = {
 
     commit("setTodos", res.data);
   },
-
   async addTodo({ commit }, title) {
     const res = await axios.post("https://jsonplaceholder.typicode.com/todos", {
       title,
@@ -23,11 +22,22 @@ const actions = {
 
     commit("newTodo", res.data);
   },
-
   async deleteTodo({ commit }, id) {
     await axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`);
 
     commit("removeTodo", id);
+  },
+  async filterTodos({ commit }, e) {
+    // Get selected number
+    const limit = parseInt(
+      e.target.options[e.target.options.selectedIndex].innerText
+    );
+
+    const res = await axios.get(
+      `https://jsonplaceholder.typicode.com/todos?_limit=${limit}`
+    );
+
+    commit("setTodos", res.data);
   },
 };
 

@@ -6,6 +6,7 @@
 
 - Global state management with VueX
 - Add and Delete To Do
+- Filter To Do
 
 ## Technologies
 
