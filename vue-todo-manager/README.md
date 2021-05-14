@@ -5,6 +5,7 @@
 ## Features
 
 - Global state management with VueX
+- Add and Delete To Do
 
 ## Technologies
 
