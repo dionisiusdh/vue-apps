@@ -2,6 +2,8 @@
 
 > Manage Your To Dos
 
+![](./demo.PNG)
+
 ## Features
 
 - Global state management with VueX
